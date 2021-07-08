@@ -1,13 +1,13 @@
 {
-  "name": "HavenCoreNetworklauncher",
-  "version": "2.5.0-release",
-  "productName": "HavenCoreNetwork Launcher",
+  "name": "nitrocraftlauncher",
+  "version": "1.0.0-release",
+  "productName": "NitroCraft Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "HavenCoreNetworkNetwork",
+  "author": "NitroCraftNetwork",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher",
+  "homepage": "https://github.com/NitroCraftNetwork/NitroCraftLauncher",
   "bugs": {
-    "url": "https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher/issues"
+    "url": "https://github.com/NitroCraftNetwork/NitroCraftLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher.git"
+    "url": "git+https://github.com/NitroCraftNetwork/NitroCraftLauncher.git"
   }
 }
