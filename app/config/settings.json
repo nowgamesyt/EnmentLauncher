@@ -1,7 +1,7 @@
 {
-  "APP_DISPLAY_NAME": "NitroCraft Launcher",
+  "APP_DISPLAY_NAME": "Enment Launcher",
 
-  "WELCOME_HEADER_TEXT": "Welcome to NitroCraft!",
+  "WELCOME_HEADER_TEXT": "Welcome to Enment!",
   "WELCOME_DESC_TEXT": "N/A",
   "WELCOME_DESC_CTA": "N/A",
 
@@ -12,8 +12,8 @@
   "INSTAGRAM_ENABLE": false,
   "INSTAGRAM_URL": "#",
   "YOUTUBE_ENABLE": true,
-  "YOUTUBE_URL": "https://www.youtube.com/c/NitroJamsubtonitrojam/",
+  "YOUTUBE_URL": "https://enment.net/",
   "DISCORD_ENABLE": true,
-  "DISCORD_URL": "https://discord.gg/JMzGPK4JS8"
+  "DISCORD_URL": "https://enment.net/"
 
 }

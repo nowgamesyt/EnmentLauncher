@@ -48,7 +48,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/NitroCraftNetwork/NitroCraftLauncher/releases/download/v${info.version}/nitrocraftlauncher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : ''}.dmg`
+                    info.darwindownload = `https://github.com/NitroCraftNetwork/EnmentLauncher/releases/download/v${info.version}/enmentlauncher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : ''}.dmg`
                     showUpdateUI(info)
                 }
                 

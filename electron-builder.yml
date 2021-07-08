@@ -1,5 +1,5 @@
-appId: 'nitrocraftlauncher'
-productName: 'NitroCraft Launcher'
+appId: 'enmentlauncher'
+productName: 'Enment Launcher'
 artifactName: '${productName}-Setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2021 Daniel Scalzi'

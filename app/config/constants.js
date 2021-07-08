@@ -1,4 +1,4 @@
-const APP_DATA_NAME = 'NitroCraftLauncher'
+const APP_DATA_NAME = 'EnmentLauncher'
 const LIVE_DISTRIBUTION_URL = 'https://raw.githubusercontent.com/NitroCraftNetwork/LauncherFiles/master/distribution.json'
 const DEV_DISTRIBUTION_URL = 'https://raw.githubusercontent.com/NitroCraftNetwork/LauncherFiles/master/distribution.json'
 

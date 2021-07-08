@@ -620,7 +620,7 @@ exports.pullLocal = function(){
  * @returns {Promise.<DistroIndex>}
  * Runs a remote ETag version check on the distribution file. If it matches the locally stored version, grab the local.
  */
-exports.pullRemoteIfOutdated = function(){
+exports.pullRemoteIfOutdated = async function(){
     return new Promise((resolve, reject) => {
         request.head(distributionURL, (err, resp) => {
             if(!err && resp.statusCode === 200){

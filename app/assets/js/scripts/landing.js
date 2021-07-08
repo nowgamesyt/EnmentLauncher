@@ -653,13 +653,13 @@ function dlAsync(login = true){
         loggerAEx.log(data)
     })
     aEx.on('error', (err) => {
-        loggerLaunchSuite.error('Error during launch', err)
-        showLaunchFailure('Error During Launch', err.message || 'See console (CTRL + Shift + i) for more details.')
+        loggerLaunchSuite.error('landing.js dlAsync line656Error during launch', err)
+        showLaunchFailure('landing.js line657 Error During Launch', err.message || 'See console (CTRL + Shift + i) for more details.')
     })
     aEx.on('close', (code, signal) => {
         if(code !== 0){
-            loggerLaunchSuite.error(`AssetExec exited with code ${code}, assuming error.`)
-            showLaunchFailure('Error During Launch', 'See console (CTRL + Shift + i) for more details.')
+            loggerLaunchSuite.error(`landing.js 661 AssetExec exited with code ${code}, assuming error.`)
+            showLaunchFailure('landing.js line662 Error During Launch', 'See console (CTRL + Shift + i) for more details.')
         }
     })
 
@@ -739,7 +739,7 @@ function dlAsync(login = true){
         } else if(m.context === 'error'){
             switch(m.data){
                 case 'download':
-                    loggerLaunchSuite.error('Error while downloading:', m.error)
+                    loggerLaunchSuite.error('landing.js 742 Error while downloading:', "index.js line 742 " + m.error)
                     if(m.error.code === 'ENOENT'){
                         showLaunchFailure(
                             'Download Error',
@@ -1036,7 +1036,7 @@ function slide_(up){
 }
 
 // Bind news button.
-document.getElementById('newsButton').onclick = () => {
+/*document.getElementById('newsButton').onclick = () => {
     // Toggle tabbing.
     if(document.getElementById('newsButton').hasAttribute('selected')){
         document.getElementById('newsButton').removeAttribute('selected')
@@ -1072,7 +1072,7 @@ document.getElementById('newsButton').onclick = () => {
     }
     slide_(!newsActive)
     newsActive = !newsActive
-}
+}*/
 
 // Array to store article meta.
 let newsArr = null

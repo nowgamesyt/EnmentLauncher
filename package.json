@@ -1,13 +1,13 @@
 {
-  "name": "nitrocraftlauncher",
+  "name": "enmentlauncher",
   "version": "1.0.0-release",
-  "productName": "NitroCraft Launcher",
+  "productName": "Enment Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "NitroCraftNetwork",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/NitroCraftNetwork/NitroCraftLauncher",
+  "homepage": "https://github.com/NitroCraftNetwork/EnmentLauncher",
   "bugs": {
-    "url": "https://github.com/NitroCraftNetwork/NitroCraftLauncher/issues"
+    "url": "https://github.com/NitroCraftNetwork/EnmentLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -50,6 +50,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NitroCraftNetwork/NitroCraftLauncher.git"
+    "url": "git+https://github.com/NitroCraftNetwork/EnmentLauncher.git"
   }
 }
