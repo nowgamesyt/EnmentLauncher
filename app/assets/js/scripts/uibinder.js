@@ -73,7 +73,7 @@ function showMainUI(data){
 
     prepareSettings(true)
     updateSelectedServer(data.getServer(ConfigManager.getSelectedServer()))
-    refreshServerStatus()
+    
     loadDiscord()
     setTimeout(() => {
         document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
@@ -150,7 +150,7 @@ function showFatalStartupError(){
  */
 function onDistroRefresh(data){
     updateSelectedServer(data.getServer(ConfigManager.getSelectedServer()))
-    refreshServerStatus()
+    
     initNews()
     syncModConfigurations(data)
 }

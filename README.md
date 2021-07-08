@@ -68,7 +68,7 @@ This project is forked from HeliosLauncher, a project by dscalzi for the server 
 [discord2]: https://discord.gg/zNWUXdt 'Original Project Discord'
 [original]: https://github.com/dscalzi/HeliosLauncher 'Original Project GitHub'
 ```console
-> git clone https://github.com/ModRealms-Network/ModRealmsLauncher.git
+> git clone https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher.git
 > cd ModRealmsLauncher
 > npm install
 ```

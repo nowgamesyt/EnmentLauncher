@@ -161,7 +161,7 @@ document.getElementById('refreshMediaButton').onclick = (e) => {
     DistroManager.pullRemote().then((data) => {
         onDistroRefresh(data)
         showMainUI(data)
-        refreshModRealmsStatuses()
+        
         setOverlayContent(
             'Launcher Refreshed!',
             'This is a confirmation letting you know that you have manually refreshed your launcher, your server list is now up to date and should be good to go! If you have any problems please do let us know!',
@@ -387,13 +387,11 @@ function loadDiscord(){
 }
 
 refreshMojangStatuses()
-refreshModRealmsStatuses()
 // Server Status is refreshed in uibinder.js on distributionIndexDone.
 
 // Set refresh rate to once every 5 minutes.
 let mojangStatusListener = setInterval(() => refreshMojangStatuses(true), 30000)
-let networkStatusListener = setInterval(() => refreshModRealmsStatuses(true), 30000)
-let serverStatusListener = setInterval(() => refreshServerStatus(true), 30000)
+
 
 /**
  * Shows an error overlay, toggles off the launch area.
@@ -853,7 +851,7 @@ function dlAsync(login = true){
                     data = data.trim()
                     if(data.indexOf('Could not find or load main class net.minecraft.launchwrapper.Launch') > -1){
                         loggerLaunchSuite.error('Game launch failed, LaunchWrapper was not downloaded properly.')
-                        showLaunchFailure('Error During Launch', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/ModRealms-Network/ModRealmsLauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
+                        showLaunchFailure('Error During Launch', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/Network/ModRealmsLauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
                         proc.kill(9)
                     }  else if(data.includes('net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException')){
                         loggerLaunchSuite.error('Game launch failed before the JVM could open the window!')

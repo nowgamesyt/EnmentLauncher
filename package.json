@@ -1,13 +1,13 @@
 {
-  "name": "modrealmslauncher",
+  "name": "HavenCoreNetworklauncher",
   "version": "2.5.0-release",
-  "productName": "ModRealms Launcher",
+  "productName": "HavenCoreNetwork Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "ModRealms",
+  "author": "HavenCoreNetworkNetwork",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/ModRealms-Network/HeliosLauncher",
+  "homepage": "https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher",
   "bugs": {
-    "url": "https://github.com/ModRealms-Network/HeliosLauncher/issues"
+    "url": "https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ModRealms-Network/ModRealmsLauncher.git"
+    "url": "git+https://github.com/HavenCoreNetworkNetwork/HavenCoreNetworkLauncher.git"
   }
 }
