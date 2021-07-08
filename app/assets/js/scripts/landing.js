@@ -745,7 +745,12 @@ function dlAsync(login = true){
                             'Download Error',
                             'Could not connect to the file server. Ensure that you are connected to the internet and try again.'
                         )
-                    } else {
+                    } else if((m.error.code === 'ETIMEDOUT')) {
+                        showLaunchFailure(
+                            'Download Error',
+                            'Connection to the file server was lost, please try again. If this error continues, contact the staff.'
+                        )
+                    }else {
                         showLaunchFailure(
                             'Download Error',
                             'Check the console (CTRL + Shift + i) for more details. Please try again.'
